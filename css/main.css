@@ -1,17 +1,18 @@
 body {
     min-height: 100vh;
     margin: 0;
+    background-color: rgb(296, 76, 165);
   }
   
   .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: white;
   }
   
   .topnav a {
     float: right;
     display: block;
-    color: #f2f2f2;
+    /* color: #f2f2f2; */
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -24,7 +25,7 @@ body {
   }
   
   .logo {
-    color: white;
+    /* color: white; */
     font-family: 'Parisienne', cursive !important; 
   }
   
@@ -58,6 +59,10 @@ body {
       display: block;
       text-align: left;
     }
+  }
+
+  .about {
+    background-color: rgb(255, 71, 151);
   }
 /* .main-nav {
     overflow: hidden;
@@ -105,6 +110,7 @@ body {
 .contact {
     text-align: center;
     padding: 40px;
+    background-color: white; 
 }
 .contact-icons {
     display: flex;
@@ -123,7 +129,8 @@ body {
 
 #skills {
     padding: 30px;
-    background-color: rgb(255, 253, 184); 
+    background-color: white; 
+    margin-top: -10px;
 }
 
 .skills-icons {
@@ -266,11 +273,12 @@ p {
         }
     } */
     .about {
-        margin: -190px 0 0 100px;
+        /* margin: -190px 0 0 100px; */
         display: flex;
         justify-content: space-between;
-        margin-top: 50px;
+        margin-top: 100px;
         font-size: 40px; 
+        background-color: rgb(296, 76, 165);
     }
 
 
@@ -289,9 +297,12 @@ p {
 
     .about-title {
         width: 40%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: center; */
+        margin-left: 126px;
+        margin-top: 64px;
+        color: white; 
     }
 
     .flex-container {
