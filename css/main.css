@@ -1,18 +1,17 @@
 body {
     min-height: 100vh;
-    margin: 0;
+    margin: 0 auto;
     font-family: 'PT Serif', serif;
-    color: black; 
   }
   
+  /* navbar */
   .topnav {
     overflow: hidden;
-    background-color: white; 
+    background-color: white;
   }
   
   .topnav a {
     float: right;
-    display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -20,56 +19,48 @@ body {
   }
   
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    color: rgb(255, 71, 151);
   }
   
   .logo {
     font-family: 'Parisienne', cursive !important; 
     margin-left: 30px; 
+    float: left !important;
+    font-size: 25px !important;
   }
   
   .topnav .icon {
     display: none;
   }
 
-  .main-nav li:first-child {
-    margin-right: auto;
-}
-  
-  @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
-      height: 48px;
-      width: 48px; 
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .topnav.responsive {position: relative;}
-    .topnav.responsive .icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .topnav.responsive a {
-      float: none;
-      display: block;
-      text-align: left;
-    }
-  }
-
-  .about {
+/* about section */
+.about {
     background-color: rgb(255, 71, 151);
-  }
-
-  .background {
-    background-color: rgb(296, 76, 165);
-    height: 125px;
+    align-items: center;
+    margin-top: 10px;
 }
 
+.about h4 {
+    font-size: 30px; 
+    }
+
+.about p {
+    margin-top: 10px;
+    font-size: 20px; 
+}
+
+.about-img {
+    margin-bottom: 10px;
+    width: 60%;
+}
+
+.about-title h4 {
+    color: rgb(254, 207, 53);
+}
+
+.about-title {
+    color: white; 
+}
 
 .flex-container {
     text-align: center;
@@ -143,7 +134,6 @@ img {
     padding: 10px;
 }
 
-
 h4 {
     font-size: 14px;
 }
@@ -159,13 +149,40 @@ p {
 #projects h2, #skills h2  {
     text-align: center;
 }
+  
+/* 650- hamburger menu */
+  @media screen and (max-width: 650px) {
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+      height: 48px;
+      width: 48px; 
+    }
 
-.logo {
-    float: left !important;
-    font-size: 25px !important;
-}
+  }
+  
+  /* 650- little screen */
+  @media screen and (max-width: 650px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+    }
+  }
 
-@media screen and (min-width: 540px) {
+/* 955+ half of screen or more */
+@media screen and (min-width: 955px) {
     
     .sticky {
         position: fixed;
@@ -176,34 +193,28 @@ p {
       .background {
         background-color: rgb(296, 76, 165);
         height: 79px;
+        display: block; 
     }
     
     .about {
         display: flex;
         justify-content: space-between;
-        font-size: 40px; 
-        background-color: rgb(296, 76, 165);
-    }
-
-
-    .about-img {
-        width: 50%;
-        height: 50%;
-        width: 50%;
-    }
-
-    .about h4 {
-    font-size: 25px; 
-    }
-    .about p {
-        font-size: 15px; 
+        margin: 0 auto;
     }
 
     .about-title {
-        width: 40%;
+        width: 50%;
         margin-left: 126px;
-        margin-top: 64px;
-        color: white; 
+        margin-top: 30px;
+    }
+
+    .about-img {
+        width: 50%;
+        text-align: center;
+    }
+    
+    .about-img img {
+        width: 70%;
     }
 
     .flex-container {
@@ -225,25 +236,35 @@ p {
         text-align: left;
     }
 
-    .about {
-        display: flex;
-    }
     .about-text {
         padding-top: 7%;
-    }
-
-    .about-img {
-        width: 50%;
-    }
-
-    .about-img img {
-        width: 70%;
     }
 
 }
 
 
+/* 855- half-screen or less */
+@media screen and (max-width: 955px) {
+    .about {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10px;
+    }
 
+    .background {
+        display: none; 
+    }
+
+    .about-title {
+        margin: 0 auto;
+        width: 300px;
+        text-align: center
+    }
+}
+
+
+/* 1080+ super large screen */
 @media screen and (min-width: 1080px) {
     .col-3 {
         width: 24%;
