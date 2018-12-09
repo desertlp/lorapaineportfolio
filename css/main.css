@@ -2,6 +2,7 @@ body {
     min-height: 100vh;
     margin: 0;
     font-family: 'PT Serif', serif;
+    color: black; 
   }
   
   .topnav {
@@ -25,6 +26,7 @@ body {
   
   .logo {
     font-family: 'Parisienne', cursive !important; 
+    margin-left: 30px; 
   }
   
   .topnav .icon {
@@ -132,7 +134,8 @@ img {
 }
 
 .button a:hover {
-    background-color: #c51616;
+    background-color: black;
+    color: white; 
 }
 
 .btn {
