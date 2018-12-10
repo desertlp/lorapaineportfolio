@@ -166,11 +166,6 @@ p {
   
   /* 650- little screen */
   @media screen and (max-width: 650px) {
-    .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%;
-      }
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
       position: absolute;
