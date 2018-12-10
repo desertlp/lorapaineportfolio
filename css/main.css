@@ -242,11 +242,6 @@ p {
 
 /* 955- half-screen or less */
 @media screen and (max-width: 955px) {
-    .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%;
-      }
     .about {
         display: flex;
         flex-direction: column;
