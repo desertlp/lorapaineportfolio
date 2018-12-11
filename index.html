@@ -1,32 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+<html class="has-navbar-fixed-top">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123564407-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-123564407-1');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Elizabeth Messick</title>
     <link href="css/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Serif|Parisienne" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="img/laptop.png" />
-    <title>Elizabeth Messick</title>
+    <!-- import  konpa icons -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <!-- import bulma.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <!-- FONT AWESOME -->
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
-        <div class="topnav" id="myTopnav">
-            <a class="logo">Elizabeth Messick</a>
-            <a href="https://elizabethmessick.com" target="_blank">Magic</a>
-            <a href="#contact">Contact</a>
-            <a href="#projects">Projects</a>
-            <a href="#skills">Skills</a>
-            <a href="#about">About</a>
-            <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/220px-Hamburger_icon.svg.png"
-                    class="fa fa-bars" alt="menu">
-            </a>
+    <!-- NAVBAR -->
+    <nav class="navbar is-transparent is-fixed-top">
+        <div class="navbar-brand">
+            <a class="navbar-item logo" href="#">Elizabeth Messick</a>
+            <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
-
-    </header>
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+            <div class="navbar-start">
+            </div>
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <a class="navbar-item item-one" href="#about">About</a>
+                    <a class="navbar-item item-two" href="#projects">Projects</a>
+                    <a class="navbar-item item-three" href="#skills">Skills</a>
+                    <a class="navbar-item item-four" href="#contact">Contact</a>
+                    <a class="navbar-item item-five" href="https://elizabethmessick.com" target="_blank">Magic</a>
+                </div>
+            </div>
+        </div>
+    </nav>
     <main>
         <div class="background"></div>
         <section class="about" id="about">
@@ -48,134 +75,226 @@
             &nbsp;
             &nbsp;
             &nbsp;
-            <h2>SKILLS</h2>
+            <h1>SKILLS</h1>
             <div class="flex-container">
-                <div class="skills-icons">
-                    <img src="img/react.png">
-                    <h4>React</h4>
-                </div>
-                <div class="skills-icons">
-                    <img src="img/node.png">
-                    <h4>Node.js <br> Express</h4>
-                </div>
-                <div class="skills-icons">
-                    <img src="img/javascript.png">
-                    <h4>Javascript</h4>
-                </div>
-                <div class="skills-icons">
-                    <img src="img/music.png">
-                    <h4>Music</h4>
-                </div>
-                <div class="skills-icons">
-                    <img src="img/python.png">
-                    <h4>Python</h4>
-                </div>
-                <div class="skills-icons">
-                    <img src="img/django.png">
-                    <h4>Django</h4>
-                </div>
-                <div class="skills-icons">
-                    <img src="img/html.png">
-                    <h4>HTML5</h4>
-                </div>
-                <div class="skills-icons">
-                    <img src="img/css.png">
-                    <h4>CSS</h4>
-                </div>
-                <div class="skills-icons">
-                    <img src="img/mongo.jpg">
-                    <h4>Mongo DB</h4>
-                </div>
-                <div class="skills-icons">
-                    <img src="img/sql.jpg">
-                    <h4>NoSQL</h4>
-                </div>
-                <div class="skills-icons">
-                    <img src="img/terminal.jpg">
-                    <h4>Terminal</h4>
-                </div>
-                <div class="skills-icons">
-                    <img src="img/magic.jpg">
-                    <h4>Magic</h4>
+                <div class="icon-size">
+                    <i class="devicon-postgresql-plain-wordmark colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-heroku-original-wordmark colored"></i>
+                    <i class="devicon-react-original-wordmark colored"></i>
+                    <i class="devicon-nodejs-plain colored"></i>
+                    <i class="devicon-mongodb-plain-wordmark colored"></i>
+                    <i class="devicon-amazonwebservices-original colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-html5-plain-wordmark colored"></i>
+                    <i class="devicon-css3-plain-wordmark colored"></i>
+                    <i class="devicon-python-plain-wordmark colored"></i>
+                    <i class="devicon-django-plain-wordmark colored"></i>
+                    <i class="devicon-express-original-wordmark colored"></i>
+                    <i class="devicon-github-plain-wordmark colored"></i>
+                    <i class="devicon-git-plain-wordmark colored"></i>
+
                 </div>
             </div>
             </div>
         </section>
 
-        <section id="projects">
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            <h2>PROJECTS</h2>
-            <div class="flex-container">
-                <div class="col-3">
-                    <img src="https://i.imgur.com/hPR7yRC.png">
-                    <h3>Connect Four</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut
-                        labore
-                        et dolore magna aliqua.</p>
-                    <p><strong>Technologies used:</strong> HTML5, CSS & Javascript.</p>
-                    <div class="button" class="btn btn-warning"><a href="https://github.com/elizabethmessick/Connect_Four"
-                            target="_blank" class="btn">GitHub</a>
-                        <a href="https://elizabethmessick.github.io/Connect_Four/" target="_blank" class="btn">Project</a></div>
+        <!-- THE ELIZABETH PROJECT -->
+        <h1 id="projects">PROJECTS</h1>
+        <section class="section reveal load-hidden section-padding">
+            <div class="container">
+                <div class="columns is-variable bd-klmn-columns is-8">
+                    <div class="column is-6">
+                        <div class="image-container">
+                            <figure class="image is-4by3 image-border">
+                                <a href="https://the-elizabeth-project.herokuapp.com/" target="_blank">
+                                    <img src="https://i.imgur.com/16brujj.png">
+                                </a>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h1 class="title">The Elizabeth Project</h1>
+                        <h2 class="subtitle">
+                            An app dedicated to help support victims of revenge porn. The Elizabeth Project uses
+                            socket.io for real time communication with other victims and gives access to create and
+                            update a supporter profile.</h2>
+                        <h1>
+                            <strong>TECHNOLOGIES USED:</strong>
+                            <br> React | Node.js | Mongoose | MongoDB | Express | MLab | Bootstrap
+                            JavaScript | HTML5 | CSS3 | Heroku</h1>
+                        <br>
+                        <!-- github and live site buttons -->
+                        <div>
+                            <a class="button is-primary" href="https://github.com/elizabethmessick/the_elizabeth_project"
+                                target="_blank">
+                                <span class="icon">
+                                    <i class="fab fa-github"></i></span>
+                                <span>GitHub</span>
+                            </a>
+                            <a class="button is-primary" href="https://the-elizabeth-project.herokuapp.com/" target="_blank">
+                                <span class="icon">
+                                    <!-- <i class="fas fa-desktop"></i> -->
+                                </span>
+                                <span>View Project</span>
+
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-3">
-                    <img src="https://i.imgur.com/hPR7yRC.png">
-                    <h3>Sad Parent Gifts</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut
-                        labore
-                        et dolore magna aliqua.</p>
-                    <p><strong>Technologies used:</strong> Python, Django, HTML5, CSS</p>
-                    <div class="button" class="btn btn-warning"><a href="https://github.com/elizabethmessick/sadparentgifts"
-                            target="_blank" class="btn">GitHub</a>
-                        <a href="https://safe-castle-14369.herokuapp.com/" target="_blank" class="btn">Project</a></div>
-                </div>
-                <div class="col-3">
-                    <img src="https://i.imgur.com/hPR7yRC.png">
-                    <h3>FizzQuizz</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut
-                        labore
-                        et dolore magna aliqua.</p>
-                    <p><strong>Technologies used:</strong> Express, Node.js, Mongoose, HTML5, CSS and Javascript.</p>
-                    <div class="button" class="btn btn-warning"><a href="https://github.com/elizabethmessick/fizz-quiz"
-                            target="_blank" class="btn">GitHub</a>
-                        <a href="https://fizzquizz.herokuapp.com/" target="_blank" class="btn">Project</a></div>
-                </div>
-                <div class="col-3">
-                    <img src="https://i.imgur.com/hPR7yRC.png">
-                    <h3>The Elizabeth Project</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut
-                        labore
-                        et dolore magna aliqua.</p>
-                    <p><strong>Technologies used:</strong> React, Express, Node.js, Mongoose, HTML5, CSS and
-                        Javascript.</p>
-                    <div class="button" class="btn btn-warning"><a href="#" target="_blank" class="btn">GitHub</a>
-                        <a href="https://the-elizabeth-project.herokuapp.com/" target="_blank" class="btn">Project</a></div>
-                </div>
-            </div>
             </div>
         </section>
+
+        <!-- FIZZQUIZZ -->
+        <section class="section reveal load-hidden section-padding">
+            <div class="container">
+                <div class="columns is-variable bd-klmn-columns is-8">
+                    <div class="column">
+                        <h1 class="title">FizzQuizz</h1>
+                        <h2 class="subtitle">
+                            The world’s first hot-potato-style-trivia-drinking-game! Two teams face off to answer as
+                            many trivia questions as possible before the timer runs out. Choose a wrong answer? Drink!
+                            Timer runs out while you’re holding the phone? Drink!
+                        </h2>
+                        <h1>
+                            <strong>TECHNOLOGIES USED:</strong>
+                            <br> JavaScript | Node.js | Mongoose | MongoDB | Express |
+                            OAuth | MLab | Open Trivia Database | RESTful API | HTML5 | CSS3 | Heroku </h1>
+                        <br>
+                        <!-- github and live site buttons -->
+                        <div>
+                            <a class="button is-primary" href="https://github.com/helloryantg/fizz-quiz" target="_blank">
+                                <span class="icon">
+                                    <i class="fab fa-github"></i>
+                                </span>
+                                <span>GitHub</span>
+                            </a>
+                            <a class="button is-primary" href="https://fizzquizz.herokuapp.com/" target="_blank">
+                                <span class="icon">
+                                    <!-- <i class="fas fa-desktop"></i> -->
+                                </span>
+                                <span>View Project</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="column is-6">
+                        <div class="image-container">
+                            <figure class="image is-4by3 image-border">
+                                <a href="https://fizzquizz.herokuapp.com/" target="_blank">
+                                    <img src="https://i.imgur.com/aSyHO2u.png">
+                                </a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONNECT FOUR -->
+        <section class="section reveal load-hidden section-padding">
+            <div class="container">
+                <div class="columns is-variable bd-klmn-columns is-8">
+                    <div class="column is-6">
+                        <div class="image-container">
+                            <figure class="image is-4by3 image-border">
+                                <a href="https://elizabethmessick.github.io/Connect_Four/" target="_blank">
+                                    <img src="https://i.imgur.com/2H330vJ.png">
+                                </a>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <h1 class="title">Connect Four</h1>
+                        <h2 class="subtitle">
+                            Connect Four is a game in which two players compete to create a sequence of four connecting
+                            tokens by dropping and stacking their colored tokens into a seven-column, six-row grid.
+
+                            My connect four game is an immersive, audio visual experience built with dry code and
+                            groovy flare.
+                        </h2>
+                        <h1>
+                            <strong>TECHNOLOGIES USED:</strong>
+                            <br> HTML | CSS | JavaScript | GH Pages </h1>
+                        <br>
+                        <!-- github and live site buttons -->
+                        <div>
+                            <a class="button is-primary" href="https://github.com/elizabethmessick/Connect_Four" target="_blank">
+                                <span class="icon">
+                                    <i class="fab fa-github"></i>
+                                </span>
+                                <span>GitHub</span>
+                            </a>
+                            <a class="button is-primary" href="https://elizabethmessick.github.io/Connect_Four/" target="_blank">
+                                <span class="icon">
+                                    <!-- <i class="fas fa-desktop"></i> -->
+                                </span>
+                                <span>View Project</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </section>
+
+        <!-- SAD PARENT GIFTS -->
+        <section class="section reveal load-hidden section-padding">
+            <div class="container">
+                <div class="columns is-variable bd-klmn-columns is-8">
+                    <div class="column">
+                        <h1 class="title">Sad Parent Gifts</h1>
+                        <h2 class="subtitle">
+                            Sad Parent Gifts is an instagram-like app where people are free to post photos of the
+                            embarassing gifts their parents give them!
+                        </h2>
+                        <h1>
+                            <strong>TECHNOLOGIES USED:</strong>
+                            <br> Django | Python | HTML5 | CSS | Heroku | boto3 | AWS
+                            <br>
+                            <!-- github and live site buttons -->
+                            <div>
+                                <a class="button is-primary" href="https://github.com/elizabethmessick/sadparentgifts"
+                                    target="_blank">
+                                    <span class="icon">
+                                        <i class="fab fa-github"></i>
+                                    </span>
+                                    <span>GitHub</span>
+                                </a>
+                                <a class="button is-primary" href="https://safe-castle-14369.herokuapp.com/" target="_blank">
+                                    <span class="icon">
+                                        <!-- <i class="fas fa-desktop"></i> -->
+                                    </span>
+                                    <span>View Project</span>
+                                </a>
+                            </div>
+                    </div>
+                    <div class="column is-6">
+                        <div class="image-container">
+                            <figure class="image is-4by3 image-border">
+                                <a href="https://safe-castle-14369.herokuapp.com/" target="_blank">
+                                    <img src="https://i.imgur.com/gb2wvll.png">
+                                </a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
         <footer class="contact" id="contact">
-            <h2>CONTACT</h2>
             <p>Elizabeth Messick</p>
             <p>emessick12@gmail.com</p>
-            <div class="contact-icons">
-                <div class="skills-icons" target="_blank"><a href="https://linkedin.com/in/elizabethmessick/"> <img src="img/linkedin.png">
-                        LinkedIn
-                    </a></div>
-                <div class="skills-icons" target="_blank"><a href="https://github.com/elizabethmessick"> <img src="img/github.png">
-                        GitHub
-                    </a></div>
-                <div class="skills-icons" target="_blank"><a href="elizabeth-messick-resume.pdf" download><img src="img/download.png">
-                        Resume</a>
-                </div>
-
-            </div>
+            <a class="footer-style" href="https://github.com/elizabethmessick" target="_blank"> <i class="devicon-github-plain-wordmark colored icon-size github"></i>
+            </a>
+            <a href="https://linkedin.com/in/elizabethmessick/">
+            </a>
+            <a class="button is-primary is-outlined" target="_blank" href="elizabeth-messick-resume.pdf" download>
+                <span class="icon">
+                    <i class="far fa-file-pdf"></i>
+                </span>
+                <span>Resume</span>
+            </a>
         </footer>
     </main>
     <script src="js/main.js"></script>
