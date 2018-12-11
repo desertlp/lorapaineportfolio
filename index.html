@@ -3,7 +3,6 @@
 <html class="has-navbar-fixed-top">
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123564407-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -18,22 +17,10 @@
     <link href="css/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Serif|Parisienne" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="img/laptop.png" />
-    <!-- import  konpa icons -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <!-- import bulma.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-    <!-- FONT AWESOME -->
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
-
-
-
-    <!-- import  konpa icons -->
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <!-- SCROLL REVEAL -->
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-    <!-- FONT AWESOME -->
-    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
-    <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
 </head>
@@ -54,26 +41,26 @@
             </div>
             <div class="navbar-end">
                 <div class="navbar-item">
-                    <a class="navbar-item item-one" href="#about">About</a>
-                    <a class="navbar-item item-two" href="#projects">Projects</a>
-                    <a class="navbar-item item-three" href="#skills">Skills</a>
-                    <a class="navbar-item item-four" href="#contact">Contact</a>
-                    <a class="navbar-item item-five" href="https://elizabethmessick.com" target="_blank">Magic</a>
+                    <a class="navbar-item item-one navlink" href="#about">About</a>
+                    <a class="navbar-item item-two navlink" href="#projects">Projects</a>
+                    <a class="navbar-item item-three navlink" href="#skills">Skills</a>
+                    <a class="navbar-item item-four navlink" href="#contact">Contact</a>
+                    <a class="navbar-item item-five navlink" href="https://elizabethmessick.com" target="_blank">Magic</a>
                 </div>
             </div>
         </div>
     </nav>
     <main>
-        <div class="background"></div>
-        <section class="about" id="about">
+        <div class="background" id="about"></div>
+        <section class="about">
             <div class="about-title">
                 <h4>Hi I'm Elizabeth!
                     <br>
                     I'm a Full Stack Web Developer & Magician</h4>
                 <p>I’m a full stack developer with a background in magic and music. Like magic, coding is a technical
-                    art that requires focus and unconventional thinking to create something new. I'm a sucker for
-                    keyboard shortcuts.I hope to inspire
-                    young women who are interested in going into male-dominated fields, such as magic and programming.</p>
+                    art that requires focus and unconventional thinking to create something new. I hope to inspire
+                    young women who are interested in going into male-dominated fields, such as magic and programming.
+                    Oh, I'm also a sucker for keyboard and terminal shortcuts!</p>
             </div>
             <div class="about-img">
                 <img src="img/elizabeth.png" alt="elizabeth">
@@ -102,7 +89,8 @@
                     <i class="devicon-express-original-wordmark colored"></i>
                     <i class="devicon-github-plain-wordmark colored"></i>
                     <i class="devicon-git-plain-wordmark colored"></i>
-
+                    <i class="devicon-bootstrap-plain-wordmark colored"></i>
+                    <i class="devicon-jquery-plain-wordmark colored"></i>
                 </div>
             </div>
             </div>
@@ -133,21 +121,11 @@
                             <br> React | Node.js | Mongoose | MongoDB | Express | MLab | Bootstrap
                             JavaScript | HTML5 | CSS3 | Heroku</h1>
                         <br>
-                        <!-- github and live site buttons -->
                         <div>
-                            <a class="button is-primary" href="https://github.com/elizabethmessick/the_elizabeth_project"
-                                target="_blank">
-                                <span class="icon">
-                                    <i class="fab fa-github"></i></span>
-                                <span>GitHub</span>
-                            </a>
-                            <a class="button is-primary" href="https://the-elizabeth-project.herokuapp.com/" target="_blank">
-                                <span class="icon">
-                                    <!-- <i class="fas fa-desktop"></i> -->
-                                </span>
-                                <span>View Project</span>
-
-                            </a>
+                            <a class="button is-warning" href="https://github.com/elizabethmessick/the_elizabeth_project"
+                                target="_blank"> GitHub </a>
+                            <a class="button is-warning" href="https://the-elizabeth-project.herokuapp.com/" target="_blank">
+                                View Project</a>
                         </div>
                     </div>
                 </div>
@@ -163,27 +141,19 @@
                         <h2 class="subtitle">
                             The world’s first hot-potato-style-trivia-drinking-game! Two teams face off to answer as
                             many trivia questions as possible before the timer runs out. Choose a wrong answer? Drink!
-                            Timer runs out while you’re holding the phone? Drink!
+                            Timer runs out while you’re holding the phone? Drink! This is a mobile game so check it out
+                            on your phone!
                         </h2>
                         <h1>
                             <strong>TECHNOLOGIES USED:</strong>
                             <br> JavaScript | Node.js | Mongoose | MongoDB | Express |
                             OAuth | MLab | Open Trivia Database | RESTful API | HTML5 | CSS3 | Heroku </h1>
                         <br>
-                        <!-- github and live site buttons -->
                         <div>
-                            <a class="button is-primary" href="https://github.com/helloryantg/fizz-quiz" target="_blank">
-                                <span class="icon">
-                                    <i class="fab fa-github"></i>
-                                </span>
-                                <span>GitHub</span>
-                            </a>
-                            <a class="button is-primary" href="https://fizzquizz.herokuapp.com/" target="_blank">
-                                <span class="icon">
-                                    <!-- <i class="fas fa-desktop"></i> -->
-                                </span>
-                                <span>View Project</span>
-                            </a>
+                            <a class="button is-warning" href="https://github.com/helloryantg/fizz-quiz" target="_blank">
+                                GitHub </a>
+                            <a class="button is-warning" href="https://fizzquizz.herokuapp.com/" target="_blank">
+                                View Project</a>
                         </div>
                     </div>
                     <div class="column is-6">
@@ -225,19 +195,11 @@
                             <strong>TECHNOLOGIES USED:</strong>
                             <br> HTML | CSS | JavaScript | GH Pages </h1>
                         <br>
-                        <!-- github and live site buttons -->
                         <div>
-                            <a class="button is-primary" href="https://github.com/elizabethmessick/Connect_Four" target="_blank">
-                                <span class="icon">
-                                    <i class="fab fa-github"></i>
-                                </span>
-                                <span>GitHub</span>
-                            </a>
-                            <a class="button is-primary" href="https://elizabethmessick.github.io/Connect_Four/" target="_blank">
-                                <span class="icon">
-                                    <!-- <i class="fas fa-desktop"></i> -->
-                                </span>
-                                <span>View Project</span>
+                            <a class="button is-warning" href="https://github.com/elizabethmessick/Connect_Four" target="_blank">
+                                GitHub</a>
+                            <a class="button is-warning" href="https://elizabethmessick.github.io/Connect_Four/" target="_blank">
+                                View Project
                             </a>
                         </div>
                     </div>
@@ -260,20 +222,13 @@
                             <strong>TECHNOLOGIES USED:</strong>
                             <br> Django | Python | HTML5 | CSS | Heroku | boto3 | AWS
                             <br>
-                            <!-- github and live site buttons -->
                             <div>
-                                <a class="button is-primary" href="https://github.com/elizabethmessick/sadparentgifts"
+                                <a class="button is-warning" href="https://github.com/elizabethmessick/sadparentgifts"
                                     target="_blank">
-                                    <span class="icon">
-                                        <i class="fab fa-github"></i>
-                                    </span>
-                                    <span>GitHub</span>
+                                    GitHub
                                 </a>
-                                <a class="button is-primary" href="https://safe-castle-14369.herokuapp.com/" target="_blank">
-                                    <span class="icon">
-                                        <!-- <i class="fas fa-desktop"></i> -->
-                                    </span>
-                                    <span>View Project</span>
+                                <a class="button is-warning" href="https://safe-castle-14369.herokuapp.com/" target="_blank">
+                                    View Project
                                 </a>
                             </div>
                     </div>
@@ -292,18 +247,17 @@
 
 
         <footer class="contact" id="contact">
+            <p>CONTACT</p>
             <p>Elizabeth Messick</p>
             <p>emessick12@gmail.com</p>
-            <a class="footer-style" href="https://github.com/elizabethmessick" target="_blank"> <i class="devicon-github-plain-wordmark colored icon-size github"></i>
+            <a class="footer-style footer-icon" href="https://github.com/elizabethmessick" target="_blank"> <i class="fab fa-github footer-icon"></i>
             </a>
+
             <a href="https://linkedin.com/in/elizabethmessick/">
-            </a>
-            <a class="button is-primary is-outlined" target="_blank" href="elizabeth-messick-resume.pdf" download>
-                <span class="icon">
-                    <i class="far fa-file-pdf"></i>
-                </span>
-                <span>Resume</span>
-            </a>
+                <i class="fab fa-linkedin-in footer-icon"></i> </a>
+            <a class="footer-style footer-icon" target="_blank" href="Elizabeth Messick Resume.pdf" download>
+                <i class="far fa-file footer-icon"></i> </a>
+
         </footer>
     </main>
     <script src="js/main.js"></script>
