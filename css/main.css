@@ -13,7 +13,7 @@ body {
 
 /* about section */
 .about {
-    background-color: rgb(296, 76, 165);
+    background-color: lightgray;
     align-items: center;
     margin-top: 20px;
 }
@@ -33,7 +33,7 @@ body {
 }
 
 .about-title h4 {
-    color: rgb(254, 207, 53);
+    color: seagreen;
 }
 
 .about-title {
@@ -54,7 +54,7 @@ body {
 .contact {
     text-align: center;
     padding: 40px;
-    background-color: rgb(296, 76, 165);
+    background-color: gray;
     color: white; 
 }
 
@@ -115,14 +115,14 @@ p {
   }
   
   .navlink:hover, .logo:hover {
-      color: rgb(296, 76, 165) !important;
+      color: seagreen !important;
   }
 
 
 /* 955+ half of screen or more */
 @media screen and (min-width: 955px) {
       .background {
-        background-color: rgb(296, 76, 165);
+        background-color: lightgray;
         height: 79px;
         display: block; 
     }
