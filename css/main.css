@@ -2,24 +2,28 @@ body {
     min-height: 100vh;
     margin: 0 auto;
     font-family: 'PT Serif', serif !important;
-  }
+}
   
-  .logo {
-    font-family: 'Parisienne', cursive; 
+.logo {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 25px !important;
-  }
-  
-  
+}
+
+.navbar-item {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
 
 /* about section */
 .about {
-    background-color: lightgray;
+    /* background-color: lightgray; */
     align-items: center;
     margin-top: 20px;
 }
 
 .about h4 {
     font-size: 30px; 
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    
     }
 
 .about p {
@@ -54,7 +58,7 @@ body {
 .contact {
     text-align: center;
     padding: 40px;
-    background-color: gray;
+    /* background-color: gray; */
     color: white; 
 }
 
@@ -82,9 +86,10 @@ h3 {
 p {
     font-size: 20px;
 }
-#skills h1, #projects  {
+#skills h1, #projects, #contact {
     text-align: center;
     font-size: 30px; 
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .footer-icon {
@@ -122,7 +127,7 @@ p {
 /* 955+ half of screen or more */
 @media screen and (min-width: 955px) {
       .background {
-        background-color: lightgray;
+        /* background-color: lightgray; */
         height: 79px;
         display: block; 
     }
