@@ -2,6 +2,7 @@ body {
     min-height: 100vh;
     margin: 0 auto;
     font-family: 'PT Serif', serif !important;
+    background-color: #68815A;
 }
   
 .logo {
@@ -15,7 +16,7 @@ body {
 
 /* about section */
 .about {
-    /* background-color: lightgray; */
+    background-color: #68815A;
     align-items: center;
     margin-top: 20px;
 }
@@ -37,7 +38,7 @@ body {
 }
 
 .about-title h4 {
-    color: seagreen;
+    color: white;
 }
 
 .about-title {
@@ -92,6 +93,10 @@ p {
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+#projects {
+    background-color: white;
+}
+
 .footer-icon {
     height: 40px !important;
     width: 40px !important;
@@ -120,7 +125,7 @@ p {
   }
   
   .navlink:hover, .logo:hover {
-      color: seagreen !important;
+      color: #68815A !important;
   }
 
 
