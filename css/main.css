@@ -2,7 +2,7 @@ body {
     min-height: 100vh;
     margin: 0 auto;
     font-family: 'PT Serif', serif !important;
-    background-color: black;
+    background-color: darkslategray;
     /* background-color: #68815A; */
 }
   
@@ -11,6 +11,9 @@ body {
     font-size: 25px !important;
 }
 
+.navbar {
+    background-color: darkslategray;
+}
 .navbar-item {
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
