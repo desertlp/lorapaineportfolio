@@ -17,7 +17,8 @@ body {
 
 /* about section */
 .about {
-    background-color: #68815A;
+    /* background-color: #68815A; */
+    background-color: black;
     align-items: center;
     margin-top: 20px;
 }
