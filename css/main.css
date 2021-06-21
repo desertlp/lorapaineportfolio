@@ -2,7 +2,7 @@ body {
     min-height: 100vh;
     margin: 0 auto;
     font-family: 'PT Serif', serif !important;
-    background-color: darkslategray;
+    background-color: rgb(30, 31, 34) ;
     /* background-color: #68815A; */
 }
   
@@ -11,12 +11,13 @@ body {
     font-size: 25px !important;
 }
 
-nav {
-    background-color: darkslategray;
+.navbar {
+    background-color: rgb(30, 31, 34) !important;
+    color: white !important;
 }
 .navbar-item {
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    color: white;
+    color: white !important;
 }
 
 /* about section */
