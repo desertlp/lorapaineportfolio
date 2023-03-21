@@ -15,21 +15,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Lora Paine</title>
     <link href="css/main.css" rel="stylesheet">    
+    <link href="css/lp.css" rel="stylesheet">    
+
     <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="img/laptop.png" />
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 </head>
 
+<style> 
+    .page-container {width: 100%; margin: 50px auto;}
+    .hero-txt {padding-top: 50px;}
+    /* .hero-main {padding-top: 100px;} */
+    .hero-main img { max-width: 900px;}
+</style>
+
 <body>
-    <!-- NAVBAR -->
     <nav class="navbar is-fixed-top">
         <div class="navbar-brand">
-            <a class="navbar-item logo" href="https://lorapaine.com" target="blank">Lora Paine</a>
+            <a class="navbar-item logo" href="https://lorapaine.com" target="blank"><img src="img/branding/Logo.png" alt="Lora Paine Logo"></a>
             <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
                 <span></span>
                 <span></span>
@@ -41,29 +48,38 @@
             </div>
             <div class="navbar-end">
                 <div class="navbar-item">
-                    <a class="navbar-item item-one navlink" href="#about">About</a>
-                    <a class="navbar-item item-two navlink" href="#skills">Skills</a>
-                    <a class="navbar-item item-three navlink" href="#projects">Projects</a>
-                    <a class="navbar-item item-four navlink" href="#contact">Contact</a>
+                    <a class="navbar-item item-one navlink" href="/about.html">About</a>
+                    <a class="navbar-item item-three navlink" href="/projects.html">Projects</a>
                 </div>
             </div>
         </div>
     </nav>
 
-     <!-- MAIN CONTENT SECTION -->
     <main>
-        <!-- ABOUT -->
-         <!-- SKILLS -->
-        <section id="skills">
+        <section id="home"class="section reveal load-hidden section-padding">
+            <div class="center">
+                <div class="heroes flex"><div class="section-container-large hero-txt"></div></div>
+                <div class="divider bar green"></div>
+                <div class="divider bar red"></div>
+                <div class="divider bar pink"></div>
+                <div class="divider bar yellow"></div>
+                <div class="hero-main"><img src="img/branding/main.png"/></div>
+            </div>
+        </div>
+        </section>  
+        <div class="divider bar green"></div>
+        <div class="divider bar red"></div>
+        <div class="divider bar pink"></div>
+        <div class="divider bar yellow"></div> 
+        <!-- SKILLS -->
+        <!-- <section id="skills">
             &nbsp;
             &nbsp;
             &nbsp;
             &nbsp;
-            <h1>SKILLS</h1>
             <div class="flex-container">
                 <div class="icon-size">
         
-                <!-- Languages (node, python not working -->
                     <i class="devicon-javascript-plain colored"></i>
                     <i class="devicon-nodejs-plain-wordmark colored"></i>
                     <i class="devicon-html5-plain-wordmark colored"></i>
@@ -73,18 +89,15 @@
                     <i class="devicon-amazonwebservices-original colored"></i>
                     <i class="devicon-typescript-plain colored"></i>
 
-                <!-- Libraries/Frameworks -->
                     <i class="devicon-react-original-wordmark colored"></i>
                     <i class="devicon-django-line colored"></i>
                     <i class="devicon-express-original-wordmark colored"></i>
                     <i class="devicon-bootstrap-plain-wordmark colored"></i>
 
-                <!-- Databases -->    
                     <i class="devicon-mongodb-plain-wordmark colored"></i>
                     <i class="devicon-postgresql-plain-wordmark colored"></i>
                     <i class="devicon-mysql-original colored"></i>
 
-                <!-- General Skills -->
                     <i class="devicon-heroku-original-wordmark colored"></i>
                     <i class="devicon-github-plain-wordmark colored"></i>
                     <i class="devicon-wordpress-original colored"></i> 
@@ -92,261 +105,14 @@
                 </div>
             </div>
             </div>
-        </section>
-
-         <!-- PROJECTS -->
-        <section id="projects">
-            <h1 id="projects">PROJECTS</h1>   
-            <!-- SAMOTAL(right) -->
-                <section class="section reveal load-hidden section-padding">
-                    <div class="container">
-                        <div class="columns is-variable bd-klmn-columns is-8">
-                            <div class="column">
-                                <h1 class="title">Samotal, Inc.</h1>
-                                <br>
-                                <h2 class="subtitle">
-                                    Partnered with machine learning to develop the front end for a product designed for recommender systems, uploading, and downloading content that connects content makers with content distributers.
-                                </h2>
-                                <h2 class="subtitle">
-                                    <strong>TECHNOLOGIES USED:</strong>
-                                    <br> React | Redux | GraphQL | AWS | Typescript | Javascipt | HTML5 | CSS </h2>
-                                <br>
-                                <div>
-                                    <a class="button is-warning" href="https://github.com/Samotal/samotal-web-app" target="_blank">
-                                        GitHub </a>
-                                    <a class="button is-warning" href="https://samotal.com/" target="_blank">
-                                        View Website</a>
-                                </div>
-                            </div>
-                            <div class="column is-6">
-                                <div class="image-container">
-                                    <figure class="image is-4by3 image-border">
-                                        <a href="https://samotal.com/" target="_blank">
-                                            <img src="img/project_photos/samotal.jpeg">
-                                        </a>
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            <!-- ASO (left) -->
-                <section class="section reveal load-hidden section-padding">
-                    <div class="container">
-                        <div class="columns is-variable bd-klmn-columns is-8">
-                            <div class="column is-6">
-                                <div class="image-container" style="border: solid 1px">
-                                    <figure class="image is-4by3 image-border">
-                                        <a href="http://www.anaheimsolarone.com/" target="_blank">
-                                            <img src="img/project_photos/aso.png">
-                                        </a>
-                                    </figure>
-                                </div>
-                            </div>
-                            <div class="column">
-                                <h1 class="title">Anaheim Solar One</h1>
-                                <br>
-                                <h2 class="subtitle">
-                                    A clean energy project in Anaheim Hills, California is being discussed amongst members of the community. This wesbite provides much desired information regarding the project's timeline, studies, and possible short-term inconveniences. The site will grow as the energy project grows over the next decade.
-                                </h2>
-                                <h2 class="subtitle">
-                                    <strong>TECHNOLOGIES USED:</strong>
-                                    <br> Javascript | Bootstrap5 | Jquery | HTML5 | CSS3 | GoDaddy</h2>
-                                <br>
-                                <div>
-                                    <a class="button is-warning" href="https://github.com/desertlp/anaheim_solar_one"
-                                        target="_blank"> GitHub </a>
-                                    <a class="button is-warning" href="http://www.anaheimsolarone.com/" target="_blank">
-                                        View Website</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            <!-- VoteNote (right) -->
-                <section class="section reveal load-hidden section-padding">
-                    <div class="container">
-                        <div class="columns is-variable bd-klmn-columns is-8">
-                            <div class="column">
-                                <h1 class="title">VoteNote</h1>
-                                <br>
-                                <h2 class="subtitle">
-                                    Winner of the General Assembly 2020 Social Impact Hackathon. Voters can review the proposition on the ballot, with a brief explaination of what it means to vote 'yes' or 'no' at the polls. 
-                                </h2>
-                                <h2 class="subtitle">
-                                    <strong>TECHNOLOGIES USED:</strong>
-                                    <br> Django | Python | Javascipt | HTML5 | CSS </h2>
-                                <br>
-                                <div>
-                                    <a class="button is-warning" href="https://github.com/SabantuYusuf/propositions" target="_blank">
-                                        GitHub </a>
-                                    <a class="button is-warning" href="https://votenotehackathon.herokuapp.com/" target="_blank">
-                                        View Project</a>
-                                </div>
-                            </div>
-                            <div class="column is-6">
-                                <div class="image-container">
-                                    <figure class="image is-4by3 image-border">
-                                        <a href="https://votenotehackathon.herokuapp.com/" target="_blank">
-                                            <img src="img/project_photos/VoteNote.jpeg">
-                                        </a>
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            <!-- SkinCare (left) -->
-                <section class="section reveal load-hidden section-padding">
-                    <div class="container">
-                        <div class="columns is-variable bd-klmn-columns is-8">
-                            <div class="column is-6">
-                                <div class="image-container">
-                                    <figure class="image is-4by3 image-border">
-                                        <a href="https://arcane-plains-74508.herokuapp.com/" target="_blank">
-                                            <img src="img/project_photos/skincare.png">
-                                        </a>
-                                    </figure>
-                                </div>
-                            </div>
-                            <div class="column">
-                                <h1 class="title">Earthly</h1>
-                                <br>
-                                <h2 class="subtitle">
-                                    Earthly was a team project consisting of both UX and Dev students. This project introduced the two department before entering the workforce. 
-                                </h2>
-                                <h2 class="subtitle">
-                                    <strong>TECHNOLOGIES USED:</strong>
-                                    <br> RESTful API | HTML5 | CSS3 | Heroku</h2>
-                                <br>
-                                <div>
-                                    <a class="button is-warning" href="https://github.com/xTonyYu/Skin-Care-Prod"
-                                        target="_blank"> GitHub </a>
-                                    <a class="button is-warning" href="https://arcane-plains-74508.herokuapp.com/" target="_blank">
-                                        View Project</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            <!-- Surveyor (right) -->
-                <section class="section reveal load-hidden section-padding">
-                    <div class="container">
-                        <div class="columns is-variable bd-klmn-columns is-8">
-                            <div class="column">
-                                <h1 class="title">Surveyor</h1>
-                                <br>
-                                <h2 class="subtitle">
-                                    A small team of developers has been commissioned to build a travel community for users to share tips (posts) about their favorite locations around the world.
-                                </h2>
-                                <h2 class="subtitle">
-                                    <strong>TECHNOLOGIES USED:</strong>
-                                    <br> Django | Python | Javascipt | HTML5 | CSS | Heroku | Bootstrap | BulmaCDN </h2>
-                                <br>
-                                <div>
-                                    <a class="button is-warning" href="https://github.com/desertlp/wayfarer" target="_blank">
-                                        GitHub </a>
-                                    <a class="button is-warning" href="https://surveyorblog.herokuapp.com/" target="_blank">
-                                        View Project</a>
-                                </div>
-                            </div>
-                            <div class="column is-6">
-                                <div class="image-container">
-                                    <figure class="image is-4by3 image-border">
-                                        <a href="https://desertlp.github.io/tamagotchi/" target="_blank">
-                                            <img src="img/project_photos/surveyor.png">
-                                        </a>
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            <!-- PartyWave (left) -->
-                <section class="section reveal load-hidden section-padding">
-                    <div class="container">
-                        <div class="columns is-variable bd-klmn-columns is-8">
-                            <div class="column is-6">
-                                <div class="image-container">
-                                    <figure class="image is-4by3 image-border">
-                                        <a href="https://secure-mountain-38318.herokuapp.com/" target="_blank">
-                                            <img src="img/project_photos/partywave.png">
-                                        </a>
-                                    </figure>
-                                </div>
-                            </div>
-                            <div class="column">
-                                <h1 class="title">PartyWave</h1>
-                                <br>
-                                <h2 class="subtitle">
-                                    An app created to help new surfers find the best beaches, and share new beaches to other users.
-                                </h2>
-                                <h2 class="subtitle">
-                                    <strong>TECHNOLOGIES USED:</strong>
-                                    <br> Express | Node.js | Mongoose | MongoDB | Bootstrap
-                                    JavaScript | HTML5 | CSS3 | Heroku</h2>
-                                <br>
-                                <div>
-                                    <a class="button is-warning" href="https://github.com/lorapaine/PartyWave"
-                                        target="_blank"> GitHub </a>
-                                    <a class="button is-warning" href="https://secure-mountain-38318.herokuapp.com/" target="_blank">
-                                        View Project</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            <!-- Tamagotchi (right)-->
-                <section class="section reveal load-hidden section-padding">
-                    <div class="container">
-                        <div class="columns is-variable bd-klmn-columns is-8">
-                            <div class="column">
-                                <h1 class="title">Takeuchi Tamagotchi</h1>
-                                <br>
-                                <h2 class="subtitle">
-                                    Inspired by Sailor Moon, Takeuchi Tamagotchi was my first project completed with JavaScript.
-                                </h2>
-                                <h2 class="subtitle">
-                                    <strong>TECHNOLOGIES USED:</strong>
-                                    <br> Javascript | HTML5 | CSS </h2>
-                                <br>
-                                <div>
-                                    <a class="button is-warning" href="https://github.com/desertlp/tamagotchi" target="_blank">
-                                        GitHub </a>
-                                    <a class="button is-warning" href="https://desertlp.github.io/tamagotchi/" target="_blank">
-                                        View Project</a>
-                                </div>
-                            </div>
-                            <div class="column is-6">
-                                <div class="image-container">
-                                    <figure class="image is-4by3 image-border">
-                                        <a href="https://desertlp.github.io/tamagotchi/" target="_blank">
-                                            <img src="img/project_photos/tamagotchi.png">
-                                        </a>
-                                    </figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            <!-- M.A.D (left) (ADD THIS) -->
-        </section>
+        </section> -->
 
         <!-- FOOTER/CONTACT -->
         <footer class="contact" id="contact">
-            <p>CONTACT</p>
-            <p>ph. 626 491 5599</p>
-            <p>email. lorapaine1@gmail.com</p>
-            <br>
-            <a class="footer-style footer-icon" href="https://github.com/desertlp" target="_blank">
-                <img src="https://img.icons8.com/ios/50/000000/github.png" class="footer-icon">
-            </a>
-
-            <a href="https://linkedin.com/in/lorapaine/" target="_blank">
-                <img src="https://img.icons8.com/ios/50/000000/linkedin-circled.png" class="footer-icon">
-            </a>
-            <a class="footer-style footer-icon" target="_blank" href="LoraResume.pdf" download>            
-                <img src="https://img.icons8.com/ios/50/000000/resume.png" class="footer-icon"> </a>
+            <a class="footer-style footer-icon" href="https://github.com/desertlp" target="_blank"><img src="img/branding/github.png" class="footer-icon"></a>
+            <a class="footer-style footer-icon" href="https://linkedin.com/in/lorapaine/" target="_blank"><img src="img/branding/linkedin.png" class="footer-icon"></a>
+            <a class="footer-style footer-icon" href="mailto:lora.paine@ymail.com" target="_blank"><img src="img/branding/contact.png" class="footer-icon"></a>
+            <a class="footer-style footer-icon" href="LoraPaineResume.pdf" target="_blank"download><img src="img/branding/download.png" class="footer-icon"> </a>
         </footer>
 
     </main>

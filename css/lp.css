@@ -1,0 +1,222 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;600&display=swap');
+ol {
+  color: #3C7F72;
+  color: #992800;
+  color: #D34A24;
+  color: #FFAF00;
+}
+
+
+/* ---------------------------------------- COLORS---------------------------------------- 
+green: #00a06a;
+light-green: #bfdbbb;
+orange: #fd870b
+light-oragne: #fca51d
+super-light-orange: #FFAF00 
+*/
+/* ---------------------------------------- GENERAL SPACING ---------------------------------------- */
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+.page-container {
+  margin: 100px 0;
+  padding: 0 10%;
+  max-width: 1500px;
+}
+.section-container-no-padding {
+  width: 100%;
+  padding: 0;
+  max-width: 1800px;
+  margin: 0 auto;
+}
+.section-container-large {
+  width: 100%;
+  padding: 2% 10%;
+  max-width: 1800px;
+  margin: 0 auto;}
+.section-container-small {
+  width: 100%;
+  padding: 2% 10%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.center {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.space-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+/* ---------------------------------------- TEXT STYLING ---------------------------------------- */
+/* --------- FONTS --------- */
+p, 
+small,
+ul,
+ol {
+  font-family: sans-serif;
+  color: #130500;
+}
+h1 {
+  font-size: 60px;
+  color: #3C7F72;
+  /* text-decoration: underline; */
+  padding-top: 50px;
+  margin: 30px;
+} 
+h2, 
+h3, 
+h4, 
+h5 {
+  font-family: 'Signika Negative', sans-serif;
+  color: #D34A24;
+  margin: 0;
+}
+.txt-left {
+  text-align: left;
+}
+/* --------- LINKS --------- */
+p a {
+  font-family: sans-serif;
+  color: #3C7F72;
+}
+p a:hover {
+  color: #FFAF00;
+}
+.txt-left {
+  text-align: left;
+}
+/* --------- BOOTSTRAP OVERRIDES --------- */
+
+
+
+/* ---------------------------------------- COMPONENTS ---------------------------------------- */
+/* --------- HEROES --------- */
+.heroes {
+  width: 100%;
+  background-image: url('https://i.ibb.co/vDQX5Qy/textured-bg.png'); 
+}
+.heroes img {
+  width: 60%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.home {
+  border-top: solid 5px #FFAF00;
+  border-bottom: solid 5px #FFAF00;
+}
+
+.home .heroes img, 
+.home .heroes video {
+  padding: 0px;
+  margin: 0 auto;
+  max-width: 75%;
+
+}
+/* --------- PAGE DIVIDE --------- */
+.divider {
+  width: 100%;
+  margin: 50px 0;
+  border-bottom: solid 5px #FFAF00;
+}
+
+.bar {
+  margin: 2px;
+
+}
+.green {
+  border-bottom: solid 7px #3C7F72;
+}
+.red {
+  border-bottom: solid 7px #992800;
+}
+.pink {
+  border-bottom: solid 7px #D34A24;
+}
+.yellow {
+  border-bottom: solid 7px #FFAF00;
+}
+/* --------- PROJECT IMAGES AND INFO --------- */
+.project-info,
+.project-media {
+  width: 50%;
+}
+.project-info h1 {
+  margin-bottom: 0;
+}
+.project-info p {
+  margin: 0;
+}
+.project-media img {
+  padding: 5%;
+}
+/* --------- ABOUT ICONS --------- */
+.about-icon {
+  width: 25%;
+}
+.about-icon img {
+  padding: 0px;
+  max-width: 150px;
+}
+.about-icon p {
+  font-size: 12px;
+  margin-bottom: 0 !important;
+}
+.about-icon h4 {
+  margin: 0;                
+}
+/* ---------------------------------------- FOOTER ---------------------------------------- */
+footer {
+  padding: 5% 20%;
+  background-image: url('https://i.ibb.co/vDQX5Qy/textured-bg.png');
+  /* border-top: solid 5px #FFAF00; */
+}
+.social .icon img {
+  margin: 5px;
+  width: 50px;
+}
+/* ---------------------------------------- MEDIA QUERIES ---------------------------------------- */
+@media all and (max-width: 850px) {
+  .project-media,
+  .project-info  {
+    width: 100%;
+  }
+  .heroes img {
+    width: 80%;
+  }
+}
+@media all and (max-width: 700px) {
+  .about-icon img {
+    padding: 10px;
+    max-width: 100%;
+  }
+  .page-container {
+   padding: 0% 0%;
+ }
+}
+@media all and (max-width: 500px) {
+  h1 {
+    padding-top: 5px;
+    font-size: 40px;
+  }
+  .about-icon {
+    width: 35%;
+    margin: 10px;
+  }
+  .social .icon img {
+    margin: 5px;
+    width: 35px;
+  }
+  .heroes img {
+    width: 100%;
+  }
+}
