@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;600&display=swap');
 
-/* ---------------------------------------- COLORS---------------------------------------- 
+/* --------- COLORS ---------
 
   color: #3C7F72;
   color: #992800;
@@ -8,7 +8,7 @@
   color: #FFAF00;
  */
 
-/* ---------------------------------------- GENERAL SPACING ---------------------------------------- */
+/* --------- SPACING --------- */
 .flex {
   display: flex;
   flex-direction: row;
@@ -50,7 +50,6 @@
 .align-center {
   align-items: center;
 }
-/* ---------------------------------------- TEXT STYLING ---------------------------------------- */
 /* --------- FONTS --------- */
 p, 
 small,
@@ -62,7 +61,6 @@ ol {
 h1 {
   font-size: 60px;
   color: #3C7F72;
-  /* text-decoration: underline; */
   padding-top: 50px;
   margin: 30px;
 } 
@@ -88,15 +86,16 @@ p a:hover {
 .txt-left {
   text-align: left;
 }
-/* --------- BOOTSTRAP OVERRIDES --------- */
+/* --------- NAV FOOTER HERO BG ---------  */
+.navbar, 
+.heroes, 
+footer {
+  background-image: url('../img/branding/textured-bg.png'); 
 
-
-
-/* ---------------------------------------- COMPONENTS ---------------------------------------- */
+}
 /* --------- HEROES --------- */
 .heroes {
   width: 100%;
-  background-image: url('../img/branding/textured-bg.png'); 
 }
 .heroes img {
   width: 60%;
@@ -138,7 +137,7 @@ p a:hover {
 .yellow {
   border-bottom: solid 7px #FFAF00;
 }
-/* --------- PROJECT IMAGES AND INFO --------- */
+/* --------- PROJECT IMAGES/INFO --------- */
 .project-info,
 .project-media {
   width: 50%;
@@ -152,7 +151,7 @@ p a:hover {
 .project-media img {
   padding: 5%;
 }
-/* --------- ABOUT ICONS --------- */
+/* --------- ICONS --------- */
 .about-icon {
   width: 25%;
 }
@@ -167,18 +166,15 @@ p a:hover {
 .about-icon h4 {
   margin: 0;                
 }
-/* ---------------------------------------- FOOTER ---------------------------------------- */
-.navbar,
+/* --------- FOOTER --------- */
 footer {
   padding: 5% 20%;
-  background-image: url('https://i.ibb.co/vDQX5Qy/textured-bg.png');
-  /* border-top: solid 5px #FFAF00; */
 }
 .social .icon img {
   margin: 5px;
   width: 50px;
 }
-/* ---------------------------------------- MEDIA QUERIES ---------------------------------------- */
+/* --------- MEDIA QUERIES --------- */
 @media all and (max-width: 850px) {
   .project-media,
   .project-info  {
