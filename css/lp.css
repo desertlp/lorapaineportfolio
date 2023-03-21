@@ -96,7 +96,7 @@ p a:hover {
 /* --------- HEROES --------- */
 .heroes {
   width: 100%;
-  background-image: url('https://i.ibb.co/vDQX5Qy/textured-bg.png'); 
+  background-image: url('../img/branding/textured-bg.png'); 
 }
 .heroes img {
   width: 60%;
