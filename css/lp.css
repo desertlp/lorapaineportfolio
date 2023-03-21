@@ -1,20 +1,13 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;600&display=swap');
-ol {
+
+/* ---------------------------------------- COLORS---------------------------------------- 
+
   color: #3C7F72;
   color: #992800;
   color: #D34A24;
   color: #FFAF00;
-}
+ */
 
-
-/* ---------------------------------------- COLORS---------------------------------------- 
-green: #00a06a;
-light-green: #bfdbbb;
-orange: #fd870b
-light-oragne: #fca51d
-super-light-orange: #FFAF00 
-*/
 /* ---------------------------------------- GENERAL SPACING ---------------------------------------- */
 .flex {
   display: flex;
@@ -175,6 +168,7 @@ p a:hover {
   margin: 0;                
 }
 /* ---------------------------------------- FOOTER ---------------------------------------- */
+.navbar,
 footer {
   padding: 5% 20%;
   background-image: url('https://i.ibb.co/vDQX5Qy/textured-bg.png');
@@ -206,7 +200,7 @@ footer {
 @media all and (max-width: 500px) {
   h1 {
     padding-top: 5px;
-    font-size: 40px;
+    font-size: 20px;
   }
   .about-icon {
     width: 35%;
