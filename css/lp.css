@@ -62,7 +62,7 @@ h1 {
   font-size: 60px;
   color: #3C7F72;
   padding-top: 50px;
-  margin: 30px;
+  margin: 10px;
 } 
 h2, 
 h3, 
@@ -72,11 +72,18 @@ h5 {
   color: #D34A24;
   margin: 0;
 }
+
+h2 {
+  font-size: 25px;
+  line-height: 25px;
+}
+
 .txt-left {
   text-align: left;
 }
 /* --------- LINKS --------- */
 p a {
+  font-size: 12px !important;
   font-family: sans-serif;
   color: #3C7F72;
 }
@@ -85,6 +92,22 @@ p a:hover {
 }
 .txt-left {
   text-align: left;
+}
+/* --------- BUTTON --------- */
+.button-wrapper {
+  margin: 30px 0;
+}
+.button {
+  margin: 0 auto;
+  background-color: #D34A24;
+  border-color: #D34A24;
+  color: #FFFFFF;
+
+}
+.button:hover {
+  background-color: #992800;
+  border-color: #992800;
+  color: #FFFFFF;
 }
 /* --------- NAV FOOTER HERO BG ---------  */
 .navbar, 
@@ -196,7 +219,7 @@ footer {
 @media all and (max-width: 500px) {
   h1 {
     padding-top: 5px;
-    font-size: 20px;
+    font-size: 30px;
   }
   .about-icon {
     width: 35%;

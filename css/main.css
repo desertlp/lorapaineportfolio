@@ -16,7 +16,8 @@ body {
 .navbar, 
 footer{
     background-image: url('../img/branding/textured-bg.png') !important;
-    color: white !important;
+    color: #992800 !important;
+
 }
 .navbar-item {
     font-family: sans-serif;
@@ -152,9 +153,7 @@ h3 {
     font-weight: bold;
 }
 
-p {
-    font-size: 20px;
-}
+
 #skills h1, #projects, #contact {
     text-align: center;
     font-size: 30px; 
